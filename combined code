@@ -2,6 +2,7 @@ w_0_init = (1.625) # Initial weight of the aircraft
 A = 0.86 # A set constant
 C = -0.05 # A set constant
 wp= (0.125) # Payload weight
+w0=w_0_init
 
 # Raymer's equation, iterated i times
 for i in range(100):
