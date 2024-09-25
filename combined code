@@ -6,7 +6,7 @@ w0=w_0_init
 
 # Raymer's equation, iterated i times
 for i in range(100):
-  w_0_init = wp / (1 - (A * w_0 ** C))
+  w_0_init = wp / (1 - (A * w0 ** C))
     
     # Return final weight in kg
   print(f"Iteration {i+1}: w0 = {w0}")
