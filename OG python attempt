@@ -19,4 +19,4 @@ C = (-0.05) # Constant
 W_Payload = (0.27557783) # Payload Weight
 W_F = (0) # Weight Of Fuel
 
-We/W0 = A * W_0_Initial ** C
+We/W0 == A * W_0_Initial ** C
