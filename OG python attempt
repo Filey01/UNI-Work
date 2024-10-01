@@ -11,3 +11,10 @@ def raymers(W_0, A, C, W_payload, W_F, i):
 
         
 print(raymers(W_0, A, C, W_payload, W_F, ITERATIONS))
+
+
+W_0_Initial = (3.58225118) # Initial Estimate Weight Of Aircraft
+A = (0.86) # Constant
+C = (-0.05) # Constant
+W_Payload = (0.27557783) # Payload Weight
+W_F = (0) # Weight Of Fuel
