@@ -22,3 +22,5 @@ W_F = (0) # Weight Of Fuel
 WeW0 = A * W_0_Initial ** C
 print(WeW0)
 
+W01 = W_Payload / (1 - 0 - WeW0)
+print(W01)
