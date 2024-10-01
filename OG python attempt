@@ -20,3 +20,5 @@ W_Payload = (0.27557783) # Payload Weight
 W_F = (0) # Weight Of Fuel
 
 WeW0 = A * W_0_Initial ** C
+print(WeW0)
+
