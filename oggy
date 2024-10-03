@@ -1,0 +1,14 @@
+W_0_Initial = (3.58225118) # Initial Estimate Weight Of Aircraft
+A = (0.86) # Constant
+C = (-0.05) # Constant
+W_Payload = (0.27557783) # Payload Weight
+W_F = (0) # Weight Of Fuel
+i = 10
+
+def W0(W_0_Initial, A, C, W_Payload, W_F, i):
+    for _ in range(i):
+        W0 = W_Payload / (1 - 0 - (A * W_0_Initial ** C))
+
+print(W0, i)
+
+i = i + 1
